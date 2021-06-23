@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.main_header{
+    border-bottom: 2px black solid;
+    box-sizing: border-box;
+    display:inline-block;
+    padding: 20px 20px;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+.main_header_div1{
+    width: 40%;
+    height: 100%;
+}
+
+.main_header_div2{
+    width: 60%;
+    height: 100%;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.main_content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    display: block;
+}
