@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .main_header{
     border-bottom: 2px black solid;
@@ -27,6 +30,77 @@ body{
 .main_content{
     display: flex;
     width: 100%;
-    height: auto;
-    display: block;
+    height: 650px;
+    display: flex;
+    margin: 100px 0px;
+    margin-left: 200px;
+    /* position: relative; */
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.main_main_div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_main_div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.intro{
+    align-self: flex-start;
+    margin-left: 35px;
+}
+
+.main_links{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main_links a {
+    display: flex;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding :20px 20px;
+    margin: 10px 15px;
+    text-align: initial;
+    align-items:center;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.main_child1{
+    text-align: center;
+    vertical-align: middle;
+    background:rgba(204,133,34,0.8);
+}
+
+.main_child2{
+    text-align: center;
+    vertical-align: middle;
+    background:rgba(220,20,6 ,0.8);
+}
+
+.main_child3{
+    text-align: center;
+    vertical-align: middle;
+    background:rgba(0,255,255,0.6);
 }
