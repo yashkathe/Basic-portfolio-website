@@ -12,7 +12,7 @@ body{
     padding: 20px 20px;
     height: 75px;
     width: 100%;
-    z-index: 1;
+    /* z-index: 1; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,4 +185,42 @@ img{
 footer div {
     font-size: 18px;
 
+}
+
+.pop_contact{
+    position: fixed;
+    left: 40%;
+    top: 40%;
+    padding: 30px 30px;
+    height: auto;
+    width: 400px;
+    text-align: center;
+    z-index: 50;
+    border: 1px solid black;
+    background: whitesmoke;
+    font-size: 30px;
+    background: rgb(200,200,200);
+    display: none;
+}
+
+.pop_contact button {
+    /* margin-top: 10px; */
+    padding: 5px 5px;
+    /* font-weight: bold; */
+}
+
+.pop_contact button:hover, .pop_contact button:active{
+    cursor: pointer;
+}
+
+
+.body_2_backdrop{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
 }
