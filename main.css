@@ -63,7 +63,7 @@ body{
 @media(max-width:40rem){
     .main_header_div2{
         font-size: 14px ;
-        padding-right: 20px;
+        padding-right: 5px;
         width: 40%;
     }
 }
