@@ -202,6 +202,8 @@ img{
     justify-content: center;
     vertical-align: middle;
     font-size: 25px;
+    text-decoration: none;
+    color: black;
 }
 
 .main_child1{
