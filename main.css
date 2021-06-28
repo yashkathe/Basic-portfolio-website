@@ -246,6 +246,8 @@ img{
     background:rgba(204,133,34,0.8);
     box-shadow: 2px 2px 2px 2px rgba(192,192,192,0.7);
     animation: Hello 2s 600ms forwards;
+    text-decoration: none;
+    color: black;
 }
 
 .main_child1:hover, .main_child1:active{
@@ -262,6 +264,8 @@ img{
     background:rgba(220,20,6 ,0.8);
     box-shadow: 2px 2px 2px 2px rgba(192,192,192,0.7);
     animation: Hello 2s 700ms forwards;
+    text-decoration: none;
+    color: black;
 }
 
 .main_child2:hover, .main_child2:active{
@@ -278,6 +282,8 @@ img{
     background:rgba(54, 169, 254,0.7);
     box-shadow: 2px 2px 2px 2px rgba(192,192,192,0.5);
     animation: Hello 2s 800ms forwards;
+    text-decoration: none;
+    color: black;
 }
 
 .main_child3:hover, .main_child3:active{
