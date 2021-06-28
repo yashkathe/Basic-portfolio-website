@@ -322,11 +322,20 @@ footer div {
     }
 }
 
+@keyframes modalpop {
+    from{
+        transform: translateY(3rem);
+    }
+    to{
+        transform: translateY(0em);
+
+    }
+}
 
 .pop_contact{
     position: fixed;
-    left: 40%;
     top: 40%;
+    left: 40%;
     padding: 30px 30px;
     height: auto;
     width: 400px;
@@ -337,6 +346,7 @@ footer div {
     font-size: 30px;
     background: rgb(200,200,200);
     display: none;
+    animation: modalpop 1s ease-out  ;   
 }
 
 @media(max-width:40rem){
