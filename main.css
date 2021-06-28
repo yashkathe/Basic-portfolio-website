@@ -346,7 +346,7 @@ footer div {
     font-size: 30px;
     background: rgb(200,200,200);
     display: none;
-    animation: modalpop 1s ease-out  ;   
+    animation: modalpop 1.2s ease-out  ;   
 }
 
 @media(max-width:40rem){
