@@ -1,3 +1,118 @@
-.main_div2{
-    margin-top: 33px;
+body{
+    margin: 0;
+    /* background:rgb(190,190,190); */
+    /* background-image: url('background4.jpg') ;
+    background-repeat:no-repeat ;
+    background-size: contain;
+    top: 30%;
+    z-index: -1; */
+}
+
+.main_div2 {
+    margin-top: 4.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    max-width: 100%;
+    box-shadow: 5px 5px 8px 2px gray;
+}
+
+
+.sub_div_main {
+    padding: 50px 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+
+.sub_div_main_one {
+    box-sizing: border-box;
+    width: 40%;
+    display: inline-block;    
+    max-height: 500px;
+    max-width: 670px;
+
+}
+
+.main_title{
+    height: 20%;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-end;
+    align-items: center;
+    /* text-decoration: underline; */
+}
+
+.content{
+    height: 60%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: flex-start;
+}
+.source-code a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 0.5rem 0.5rem;
+    color: black;
+
+}
+
+.source-code{
+    display: flex;
+    flex-direction: column ;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.source-code a:hover , .source-code a:active{
+    border: 2px solid rgb(210,105,30);
+    color: rgb(210,105,30);
+}
+
+
+
+.sub_div_main_two {
+    width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    margin: 20px 0px; 
+    text-align: center;
+    padding:0px 20px;
+}
+
+
+.sub_div_main_one_alt {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sub_div_main_two_alt {
+    box-sizing: border-box;
+    width: 40%;
+    padding:0px 20px;
+    display: inline-block;    
+    max-height: 500px;
+    max-width: 670px;
 }

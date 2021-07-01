@@ -18,6 +18,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    left:0;
+    top:0;
+    max-height: 80px;
+    background-color:rgb(226, 226, 226)
 }
 
 
