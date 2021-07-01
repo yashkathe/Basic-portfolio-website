@@ -1,4 +1,4 @@
-var close_button = document.querySelector('#close_button')
+var close_button = document.getElementById('close_button')
 
 // console.log(close_button)
 
@@ -14,20 +14,18 @@ var contact_button = document.querySelector('.main_child1')
 
 // console.log(contact_button)
 
-contact_button.addEventListener('click',
- function(){
+const closeModalandBackdrop = () => {
+    modal.style.display='none';
+    backdrop.style.display='none';
+}
+
+const popModalandBacldrop = () => {
     modal.style.display='block';
     backdrop.style.display='block';
-})
+}
 
-backdrop.addEventListener('click',
-function(){
-    modal.style.display='none';
-    backdrop.style.display='none';
-})
+contact_button.addEventListener('click', popModalandBacldrop)
 
-close_button.addEventListener('click',
-function(){
-    modal.style.display='none';
-    backdrop.style.display='none';
-})
+backdrop.addEventListener('click', closeModalandBackdrop)
+
+close_button.addEventListener('click', closeModalandBackdrop)
