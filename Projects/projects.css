@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     /* background:rgb(190,190,190); */
     /* background-image: url('background4.jpg') ;
@@ -6,8 +6,8 @@ body{
     background-size: contain;
     top: 30%;
     z-index: -1; */
-    color: rgba(248,248,255,0.9);
-    background: rgba(200,200,200,0.5);
+    color: rgba(248, 248, 255, 0.9);
+    background: rgba(200, 200, 200, 0.5);
 }
 
 .background {
@@ -26,13 +26,11 @@ body{
     flex-direction: column;
 }
 
-
 img {
     max-width: 100%;
     max-height: 100%;
-    box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.9);
+    box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.9);
 }
-
 
 .sub_div_main {
     padding: 50px 60px;
@@ -42,61 +40,71 @@ img {
     border: 2px solid black;
     border-top: 0px;
     box-sizing: border-box;
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: auto;
 }
-
-
 
 .sub_div_main_one {
     width: 40%;
-    display: inline-block;    
+    display: inline-block;
     max-height: 500px;
     max-width: 670px;
-
 }
 
-.main_title{
+.main_title {
     height: 20%;
     font-size: 22px;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     text-decoration: underline;
 }
 
-.content{
-    height: 60%;
+@media(max-width:79rem){
+    .main_title{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:74rem){
+    .main_title{
+        font-size: 15px;
+    }
+}
+
+
+.content {
+    height: 50%;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0px 40px;
 }
-.source_code a{
-    text-decoration: none;
-    border: 2px solid rgba(248,248,255,0.8);
-    padding: 0.5rem 0.5rem;
-    color: rgba(248,248,255,0.8);
 
+
+.source_code a {
+    text-decoration: none;
+    border: 2px solid rgba(248, 248, 255, 0.8);
+    padding: 0.5rem 0.5rem;
+    color: rgba(248, 248, 255, 0.8);
 }
 
-.source_code{
+.source_code {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     text-decoration: none;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
-.source_code a:hover , .source_code a:active{
-    border: 2px solid black ;
+.source_code a:hover,
+.source_code a:active {
+    border: 2px solid black;
     color: black;
     /* background-color:rgba(0,0,0,0.3) */
-
 }
-
-
 
 .sub_div_main_two {
     width: 60%;
@@ -106,14 +114,25 @@ img {
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
-    padding:0px 20px;
-    background-color: rgba(53, 57, 53,0.45);
-    box-shadow: 0px 8.5px 8px 2px rgba(0,0,0,0.75);
-    /* box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.7); */
-
+    padding: 0px 10px;
+    background-color: rgba(53, 57, 53, 0.45);
+    box-shadow: 0px 8.5px 8px 2px rgba(0, 0, 0, 0.75);
 }
+
+@media(max-width:79rem){
+    .sub_div_main_two{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:74rem){
+    .sub_div_main_two{
+        font-size: 14.5px;
+    }
+}
+
 
 .sub_div_main_alt {
     padding: 50px 60px;
@@ -123,39 +142,61 @@ img {
     border: 2px solid black;
     border-top: 0px;
     box-sizing: border-box;
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .sub_div_main_one_alt {
     width: 60%;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
-    padding:0px 20px;
-    background-color: rgba(53, 57, 53,0.45);
-    box-shadow: 0px 8.5px 8px 2px rgba(0,0,0,0.75);
+    padding: 0px 10px;
+    background-color: rgba(53, 57, 53, 0.45);
+    box-shadow: 0px 8.5px 8px 2px rgba(0, 0, 0, 0.75);
     box-sizing: border-box;
-    max-height:1455px ;
+}
+
+@media(max-width:79rem){
+    .sub_div_main_one_alt{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:74rem){
+    .sub_div_main_one_alt{
+        font-size: 14.5px;
+    }
 }
 
 .sub_div_main_two_alt {
     /* box-sizing: border-box; */
-    display: inline-block;    
-    height: 500px;
+    display: inline-block;
     width: 40%;
 }
 
-.main_title_alt{
+.main_title_alt {
     height: 20%;
     font-size: 22px;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: underline;
     text-align: center;
+}
+
+@media(max-width:79rem){
+    .main_title_alt{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:74rem){
+    .main_title_alt{
+        font-size: 15px;
+    }
 }
