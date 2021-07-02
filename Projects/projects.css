@@ -116,18 +116,18 @@ img {
 }
 
 .sub_div_main_alt {
+    padding: 50px 60px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 40px 0px;
-    background-color: rgba(0,0,0, 0.4);
-    padding: 50px 60px;
     border: 2px solid black;
     border-top: 0px;
-    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0, 0.4);
 }
 
 .sub_div_main_one_alt {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction:column ;
     align-items: center;
@@ -146,8 +146,7 @@ img {
     /* box-sizing: border-box; */
     display: inline-block;    
     height: 500px;
-    width: 670px;
-    padding-right: 40px;
+    width: 40%;
 }
 
 .main_title_alt{
