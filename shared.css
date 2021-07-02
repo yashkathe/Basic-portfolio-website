@@ -35,6 +35,11 @@ body{
     padding-left: 5px ;
 }
 
+.main_header_div1 a {
+    text-decoration: none;
+    color: whitegit ;
+}
+
 
 @media(max-width:40rem){
     .main_header_div1{
