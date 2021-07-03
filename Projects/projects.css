@@ -63,6 +63,7 @@ img {
     .sub_div_main_one{
         width: 100%;
         display: block;
+        padding: 10px 0px;
     }
 }
 
