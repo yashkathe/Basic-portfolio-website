@@ -217,6 +217,16 @@ img {
     }
 }
 
+.mail{
+    text-decoration: none;
+    color: white;
+}
+
+.mail2{
+    text-decoration: none;
+    color: black;
+}
+
 .intro p {
     opacity: 0;
     font-size: 25px;
