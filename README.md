@@ -1,6 +1,7 @@
 # yashkathe.github.io  
 This is my resume website   
-Feel free to refer to this code for bulding your own resume website   
+Feel free to refer to this code for bulding your own resume website 
+And help me improve my website by opening issues on this repo
 
 My resume website consists of 3 pages 
 1) Projects page - all the code for this page is available in Projects folder  
