@@ -7,7 +7,7 @@ body {
     padding-inline-start: 0px;
 } */
 
-h2 {
+h1 {
     text-align: center;
     font-size: 35px;
     margin: 10px 25px;
@@ -15,7 +15,7 @@ h2 {
 }
 
 @media (max-width: 40rem) {
-    h2 {
+    h1 {
         font-size: 1.5rem;
     }
 }
@@ -219,6 +219,6 @@ img {
     width: 100%;
 }
 
-/* .projects h2{
+/* .projects h1{
     margin-bottom: 10px;
 } */
