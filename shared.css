@@ -47,7 +47,7 @@ body{
 
 @media(max-width:40rem){
     .main_header_div1{
-        font-size: 12px ;
+        font-size: 14px ;
         width: 60%;
     }
 }
