@@ -4,14 +4,14 @@ body {
 }
 
 /* ul{
-    list-style: none;
+    padding-inline-start: 0px;
 } */
 
 h2 {
     text-align: center;
     font-size: 35px;
     margin: 10px 25px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 @media (max-width: 40rem) {
@@ -23,7 +23,7 @@ h2 {
 h5{
     font-size: 20px;
     margin: 10px 0px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 @media (max-width: 40rem) {
@@ -62,14 +62,21 @@ p{
 @media (max-width: 40rem) {
     .div_two {
         font-size: 1.5rem;
-        margin: 60px 10px;
+        margin-top: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
     }
 }
-
 
 .education {
     border-bottom: 2px solid black;
     padding: 30px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
 }
 
 @media (max-width: 40rem) {
@@ -87,6 +94,7 @@ p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .Technical_skills {
@@ -96,34 +104,53 @@ p{
     flex-direction: column;
     border-bottom: 2px solid black;
     padding: 30px 0px;
+    width: 100%;
 }
 
 .Technical_skills div{
     padding: 20px 0px;
 }
 
+.lang_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
 .cert_link{
     border: 2px solid rgba(0,0,0,0.6);
     padding: 0px 5px;
+
 }
 
 .sub_list{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+    display: grid;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 0px;
 }
 
 .sub_list li {
-    padding: 0px 20px;
+    padding: 0px 30px;
     font-size: 18px;
-    text-align: center;
 }
 
 @media (max-width: 40rem) {
     .sub_list li {
         font-size: 13px;
     }
+}
+
+.main_list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .main_list li{
@@ -169,6 +196,7 @@ img {
     flex-direction: column;
     border-bottom: 2px solid black;
     padding: 30px 0px;
+    width: 100%;
 }
 
 .activities {
@@ -178,6 +206,7 @@ img {
     flex-direction: column;
     padding: 30px 0px;
     border-bottom: 2px solid black;
+    width: 100%;
 }
 
 .projects{
@@ -187,6 +216,7 @@ img {
     flex-direction: column;
     padding-top:30px 0px ;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 /* .projects h2{
