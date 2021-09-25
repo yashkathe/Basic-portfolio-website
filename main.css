@@ -422,10 +422,10 @@ footer div {
 @media (max-width: 40rem) {
     .pop_contact {
         font-size: 12px;
-        padding: 5px 5px;
+        padding: 10px 5px;
         width: 12rem;
-        height: 8rem;
-        text-align: center;
+        height: 7rem;
+        /* text-align: center; */
         vertical-align: middle;
         left: 25%;
     }
