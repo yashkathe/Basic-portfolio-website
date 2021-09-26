@@ -210,6 +210,7 @@ img {
 
 @media (max-width: 40rem) {
     .intro h5 {
+        margin-bottom: 0px;
         font-size: 18px;
         display: flex;
         align-items: center;
@@ -233,6 +234,14 @@ img {
     margin-top: 10px;
     text-align: center;
     animation: Hello 2s 200ms forwards;
+}
+
+@media (max-width: 40rem) {
+    .intro p {
+        font-size: 18px;
+        margin-top:0px ;
+        padding: 0px 1.3rem
+    }
 }
 
 .main_links {
