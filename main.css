@@ -352,6 +352,7 @@ img {
     justify-items: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 1);
+    position:fixed;
     color: white;
     height: auto;
     bottom: 0%;
