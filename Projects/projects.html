@@ -6,28 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="styleSheet" href="../shared.css" />
         <link rel="styleSheet" href="../Projects/projects.css" />
+        <script src="projects.js" defer></script>
         <title>Projects</title>
     </head>
+    <!-- body starts from here  -->
     <body>
         <div>
             <header>
                 <header class="main_header">
                     <div class="header_circle"></div>
                     <div class="main_header_div1">
-                        <a href="../index.html">Yash Kathe - EXTC engineer(2023)</a>
+                        <a href="../index.html"
+                            >Yash Kathe - EXTC engineer(2023)</a
+                        >
                     </div>
                     <div class="main_header_div2">📍Projects</div>
                 </header>
-            </header>  
+            </header>
         </div>
 
         <div class="background"></div>
 
         <div class="main_div2">
+            <!-- project 1 -->
 
             <div class="sub_div_main">
                 <div class="sub_div_main_one">
-                    <img src="rasphss.jpeg" alt="image 1" class="img1"/>
+                    <img
+                        src="./assets/rasphss.jpeg"
+                        alt="image 1"
+                        class="img1"
+                    />
                 </div>
                 <div class="sub_div_main_two">
                     <div class="main_title">
@@ -36,78 +45,138 @@
 
                     <div class="content">
                         <p>
-                        This is a raspberry pi project to prevent burglary -
-                        Home security system
-                        The 3 main sensors of this system are 1) IR sensor 2) DHT22 3) MQ-6 .
-                        IR sensor detects if there is any movement . DHT22 helps monitor the 
-                        temperature and humidity of the system.
-                        and MQ-6 helps detect if there is any gas leak in our house
-                        This whole data is logged into the website created with help of flask and data keeps on updating itself
-                        , so we can keep a check .                           
-                        </p>    
-                    </div>
-
-                    <div class="source_code">
-                        <a href="https://github.com/yashkathe/PythonVE-for-HSS" target="_blank">
-                        Source code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sub_div_main_alt">
-                <div class="sub_div_main_one_alt">
-                    <div class="main_title_alt">
-                       <h2> Monitoring system </h2>
-                    </div>
-
-                    <div class="content">
-                        <p>
-                            This system works the same way as the home security system
-                            made with raspberry pi . 
-                            The difference is this directly outputs the data on LCD, also 
-                            IR and MQ-6 sensor use lcd and buzzer to output / show their results.
+                            This is a raspberry pi project to prevent burglary -
+                            Home security system The 3 main sensors of this
+                            system are 1) IR sensor 2) DHT22 3) MQ-6 . IR sensor
+                            detects if there is any movement . DHT22 helps
+                            monitor the temperature and humidity of the system.
+                            and MQ-6 helps detect if there is any gas leak in
+                            our house This whole data is logged into the website
+                            created with help of flask and data keeps on
+                            updating itself , so we can keep a check .
                         </p>
                     </div>
 
                     <div class="source_code">
-                        <a href="https://github.com/yashkathe/Home-security-system-with-arduino" target="_blank">
-                        Source code
+                        <a
+                            href="https://github.com/yashkathe/PythonVE-for-HSS"
+                            target="_blank"
+                        >
+                            Source code
                         </a>
                     </div>
-
-                </div>
-                <div class="sub_div_main_two_alt">
-                    <img src="arduinohss.jpeg" alt="image 2" class="img2"/>
                 </div>
             </div>
 
+            <!-- project 2 -->
+
+            <div class="sub_div_main_alt">
+                <div class="sub_div_main_one_alt">
+                    <div class="main_title_alt">
+                        <h2>Monitoring system</h2>
+                    </div>
+
+                    <div class="content">
+                        <p>
+                            This system works the same way as the home security
+                            system made with raspberry pi . The difference is
+                            this directly outputs the data on LCD, also IR and
+                            MQ-6 sensor use lcd and buzzer to output / show
+                            their results.
+                        </p>
+                    </div>
+
+                    <div class="source_code">
+                        <a
+                            href="https://github.com/yashkathe/Home-security-system-with-arduino"
+                            target="_blank"
+                        >
+                            Source code
+                        </a>
+                    </div>
+                </div>
+                <div class="sub_div_main_two_alt">
+                    <img
+                        src="./assets/arduinohss.jpeg"
+                        alt="image 2"
+                        class="img2"
+                    />
+                </div>
+            </div>
+
+            <!-- project 3 -->
+
             <div class="sub_div_main">
                 <div class="sub_div_main_one">
-                    <img src="thirdSemP.jpeg" alt="image 1" class="img1"/>
+                    <img
+                        src="./assets/thirdSemP.jpeg"
+                        alt="image 1"
+                        class="img1"
+                    />
                 </div>
                 <div class="sub_div_main_two">
                     <div class="main_title">
                         <h2>Lithium Ion battery charger</h2>
                     </div>
                     <div class="content">
-                        This circuit helps recharge lithium ion batteries.<br/>
-                        The main component of this circuit is LM317.
-                        The LM317 is an adjustable three-terminal positive-voltage 
-                        regulator capable of supplying more than 1.5 A over an output-voltage 
-                        range of 1.25 V to 32 V.
-                        Also darlington set of transistors is used .A Darlington pair behaves like a single transistor
-                        in such a way that the current amplified by the first transistor is amplified further by the second one.
-                        which helps charge out Li-Ion battery
+                        This circuit helps recharge lithium ion batteries.<br />
+                        The main component of this circuit is LM317. The LM317
+                        is an adjustable three-terminal positive-voltage
+                        regulator capable of supplying more than 1.5 A over an
+                        output-voltage range of 1.25 V to 32 V. Also darlington
+                        set of transistors is used .A Darlington pair behaves
+                        like a single transistor in such a way that the current
+                        amplified by the first transistor is amplified further
+                        by the second one. which helps charge out Li-Ion battery
                     </div>
 
                     <div class="source_code">
-                        <a href="https://www.homemade-circuits.com/simplest-safest-li-ion-battery-charger/" target="_blank">
-                        Reference
+                        <a
+                            href="https://www.homemade-circuits.com/simplest-safest-li-ion-battery-charger/"
+                            target="_blank"
+                        >
+                            Reference
                         </a>
                     </div>
                 </div>
             </div>
+
+            <!-- project 4  -->
+
+            <div class="sub_div_main_alt">
+                <div class="sub_div_main_one_alt">
+                    <div class="main_title_alt">
+                        <h2>Controlling leds with a mobile app</h2>
+                    </div>
+
+                    <div class="content">
+                        <p>
+                            The circuit consists of a few leds, bluetooth module
+                            and an app for controlling these leds. So the
+                            bluetooth module helps us to connect our app from
+                            our smartphone to the 8051 microcontroller which has
+                            leds connected to it. From our app we transmit
+                            hexadecimal values. As we have assigned each port
+                            pin a specific value, when we press the button the
+                            hexadecimal value reaches the 8051 microcontroller
+                            and leds glow conditionally according to the button
+                            we pressed.
+                        </p>
+                    </div>
+
+                    <div class="source_code">
+                        <a
+                        href="./8051_code.html" 
+                        target="_blank"> Source code </a>
+                    </div>
+                </div>
+
+                <div class="sub_div_main_two_alt">
+                    <img src="./assets/8051.jpeg" alt="image 2" class="img2" />
+                </div>
+            </div>
+
+            <!-- project 5 -->
         </div>
     </body>
 </html>
