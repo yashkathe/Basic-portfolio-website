@@ -11,7 +11,7 @@ body {
 }
 
 .background {
-    background: url("background2.jpg") center/cover;
+    background: url("./assets/background2.jpg") center/cover;
     filter: grayscale(40%);
     filter: blur(4px);
     width: 100vw;
@@ -24,6 +24,7 @@ body {
     margin-top: 4.7rem;
     display: flex;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 img {
