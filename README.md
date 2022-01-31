@@ -1,12 +1,8 @@
 
 # Resume website
 
-This is a simple portfolio website made with 
-- html
-- css
-- javascript 
-
-
+This is a simple portfolio website made with  
+`html` `css` `javascript` 
 
 ## Website Screenshots
 
@@ -27,7 +23,7 @@ This is a simple portfolio website made with
 ![Projects page](https://raw.githubusercontent.com/yashkathe/yashkathe.github.io/master/assets/resume1.gif)
 
 
-## Project Structure
+## Project/Website Structure
 
 ### This website consists of 3 pages
 
@@ -37,6 +33,7 @@ This is a simple portfolio website made with
 ## Feedback
 
 If you have any feedback, please reach out to me at katheyash@yahoo.com
+
 
 
 
