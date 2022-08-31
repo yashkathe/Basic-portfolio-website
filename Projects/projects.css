@@ -271,3 +271,13 @@ img {
         font-size: 14px;
     }
 }
+
+#github {
+    padding-left: 1%;
+    color: white;
+    text-decoration: none;
+}
+
+#github:hover {
+    text-decoration: underline;
+}
